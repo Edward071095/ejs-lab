@@ -60,6 +60,11 @@ app.get('/menu', (req, res) => {
     res.render('menu.ejs', {menu: RESTAURANT.menu});
 });
 
+//exercise two
+
+
+
+
 app.listen(3000, () => {
     console.log('Listening on port 3000')
   });
